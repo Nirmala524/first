@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+
+            display: flex;
+            margin: 200px;
+            justify-content: center;
+        }
+
+        .box {
+            width: 370px;
+            min-height: 350px;
+            border-radius: 30px;
+            margin: 40px;
+            transition: all 0.5s;
+        }
+
+        .box:hover {
+            transform: translateY(-50px);
+
+        }
+
+        .a {
+            background-color: rgb(241, 216, 183);
+        }
+
+        .b {
+            background-color: rgb(235, 228, 173);
+
+        }
+
+        .c {
+            background-color: rgb(235, 228, 173);
+
+        }
+
+        .d {
+            background-color: rgb(241, 216, 183);
+
+        }
+
+        .e {
+            background-color: rgb(235, 228, 173);
+
+        }
+
+        .new {
+            width: 60px;
+            height: 30px;
+            background-color: #ffffff;
+            border: 1px solid #6b3d2b;
+            border-radius: 50px;
+            box-shadow: 2px 3px #6b3d2b;
+            margin: 30px 20px;
+            transition: transform.2s;
+            transition-duration: 2s;
+        }
+
+        .new h4 {
+            font-size: 15px;
+            color: #6b3d2b;
+            font-weight: 400;
+            padding: 5px;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .new img {
+            width: 200px;
+            height: 250px;
+            transition: all 0.5s;
+            transform: rotate(-20deg);
+            transform-origin: right center;
+        }
+
+        .new img:hover {
+            transform: rotate(10deg);
+            transform: translateY(-100px);
+            margin-bottom: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box a">
+            <div class="new">
+                <h4>New</h4>
+                <img class="icecream" src="/img/Choco Fudge.png" alt="">
+            </div>
+        </div>
+        <div class="box b">
+            <div class="new">
+                <h4>New</h4>
+                <img src="/img/Rajwadi.png" alt="">
+            </div>
+        </div>
+        <div class="box c">
+            <div class="new">
+                <h4>New</h4>
+                <img src="/img/Choco Crackle Flingo.png" alt="">
+            </div>
+        </div>
+        <div class="box d">
+            <div class="new">
+                <h4>New</h4>
+                <img src="/img/Gourmet_Choco Crakle.png" alt="">
+            </div>
+        </div>
+        <div class="box e">
+            <div class="new">
+                <h4>New</h4>
+                <img src="/img/Chocolate Overload.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</head>
+
+</html>
